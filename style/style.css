@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+
+:root{
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --Dark-Grey: hsl(0, 0%, 12%);
+    --Off-Black: hsl(0, 0%, 8%);
+
+    /* Fonts */
+    --body-font:'Inter';
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: var(--Off-Black);
+    font-family: var(--body-font), 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+box-sizing: border-box;
+}
+h1, p,a{
+    color: var(--White);
+}
+.container{
+    background-color: var(--Dark-Grey);
+    padding: 35px 35px;
+    width: auto;
+    text-align: center;
+    border-radius: 12px;
+  
+}
+
+
+    
+
+.user_avatar{
+    height:70px;
+    border-radius: 50%;
+}
+.user_name{
+    font-size: 1.6rem;
+}
+.user_location{
+    margin-top: -10px;
+    color: var(--Green);
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.description{
+font-size: 0.9rem;
+font-weight: normal;
+}
+.socials_network{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 14px;
+}
+.socials_links {
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+font-weight: 600;
+text-decoration: none;
+background: var(--Grey);
+
+}
+.socials_links:hover{
+    background: var(--Green);
+    color: var(--Dark-Grey);
+}
+
+
+/* MOBILE DESIGN */
+
+
+    @media screen and (max-width:375px) {
+        .container{
+            margin: auto 20px;
+        }
+        
+    }
+
+    
