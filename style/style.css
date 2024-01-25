@@ -51,6 +51,7 @@ h1, p,a{
     color: var(--Green);
     font-size: 0.9rem;
     font-weight: 600;
+    margin-bottom: 30px;
 }
 .description{
 font-size: 0.9rem;
@@ -66,17 +67,39 @@ font-weight: normal;
 .socials_links {
     padding: 10px;
     border-radius: 8px;
-    font-size: 0.9rem;
-font-weight: 600;
-text-decoration: none;
 background: var(--Grey);
+display: inline-flex;
+align-items: center;
+justify-content: center;
+position: relative;
 
 }
 .socials_links:hover{
     background: var(--Green);
     color: var(--Dark-Grey);
+    cursor: pointer;
 }
+.socials_links a{
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 0.9rem;
 
+}
+.socials_links:hover a{
+    visibility: hidden;
+    }
+
+    .socials_links span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    transform:translate(-50%,-45%);
+    visibility: hidden;
+    }
+    .socials_links:hover span img{
+        visibility: visible;
+    fill: black;
+    }
 
 /* MOBILE DESIGN */
 
