@@ -56,7 +56,10 @@ h1, p,a{
 .description{
 font-size: 0.9rem;
 font-weight: normal;
+color: lightgrey;
+
 }
+
 .socials_network{
     margin-top: 25px;
     display: flex;
