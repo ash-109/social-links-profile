@@ -2,7 +2,7 @@
 
  https://ash-109.github.io/social-links-profile/
 
-![Design preview for the Social links profile coding challenge](https://github.com/ash-109/social-links-profile/blob/main/design/destkop-design.jpg)
+![Design preview for the Social links profile coding challenge](.design/destkop-design.jpg)
 
 ## Welcome! 👋
 
